@@ -137,7 +137,7 @@ var render = function render() {
         $li.on('click', '.close', function (e) {
             console.log('这里');
             e.stopPropagation(); //阻止冒泡
-            hashMap.splice(index);
+            hashMap.splice(index, 1);
             render();
         });
     });
@@ -173,4 +173,4 @@ $(document).on('keypress', function (e) {
     }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.2e4aa2db.map
+//# sourceMappingURL=main.9f7de6ec.map

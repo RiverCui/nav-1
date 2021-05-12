@@ -48,7 +48,7 @@ const render =() =>{
         $li.on('click','.close',(e)=>{
             console.log('这里')
             e.stopPropagation() //阻止冒泡
-            hashMap.splice(index)
+            hashMap.splice(index,1)
             render()
         })
     })
